@@ -1,0 +1,32 @@
+
+/*需要为 body 元素设置内补（padding）
+p>这个固定的导航条会遮住页面上的其它内容，除非你给 <body> 元素底部设置了 padding。用你自己的值，或用下面给出的代码都可以。提示：导航条的默认高度是 50px。
+复制*/
+body { padding-top: 50px; }
+.carousel{
+	height: 500px;
+	background-color: #000;
+	margin-bottom: 60px;
+}
+.carousel .item{
+	height: 500px;
+	background-color: #000;
+}
+.carousel img{
+	width: 100%;
+}
+  .carousel-caption p{
+
+  	margin-bottom: 20px;
+  	font-size: 20px;
+  	line-height: 1.8;
+  }
+  #summary-container .col-md-4{
+
+  	text-align: center;;
+  }
+  hr.divider{
+ margin:40px 0;
+
+
+  }
